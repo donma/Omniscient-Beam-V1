@@ -1,0 +1,16 @@
+{
+ "id": "template-009",
+ "name": "Night Spa",
+ "industryCategory": "美容健康",
+ "industry": ["夜間 SPA","芳療","療癒空間"],
+ "colors": ["深色底","深綠黑","療癒夜間"],
+ "backgroundMode": "dark",
+ "features": ["沉浸視覺","芳療課程","FAQ","表單假送出","強 SEO","LocalBusiness Schema","圖片豐富"],
+ "layout": ["Fullscreen Visual 沉浸視覺型"],
+ "pages": 12,
+ "hasZip": false,
+ "hasPrompt": true,
+ "hasPreview": true,
+ "imageRich": true,
+ "status": "candidate"
+}

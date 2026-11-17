@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jazz Club｜爵士酒吧</title>
+<meta name="description" content="Jazz Club 爵士酒吧與 Live House。">
+<link rel="canonical" href="#">
+<meta property="og:title" content="Jazz Club">
+<meta property="og:description" content="爵士酒吧與 Live House。">
+<meta property="og:image" content="assets/img/preview.jpg">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Cormorant+Garamond:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Jazz Club","description":"爵士酒吧"}</script>
+</head>
+<body>
+<header class="site-header">
+ <div class="container nav-wrap">
+  <a href="index.html" class="logo">JAZZ CLUB</a>
+  <ul class="nav-links">
+   <li><a href="index.html" class="active">首頁</a></li>
+   <li><a href="about.html">品牌故事</a></li>
+   <li><a href="services.html">演出節目</a></li>
+   <li><a href="service-detail.html">節目詳情</a></li>
+   <li><a href="portfolio.html">現場氛圍</a></li>
+   <li><a href="reviews.html">客戶評價</a></li>
+   <li><a href="faq.html">常見問題</a></li>
+   <li><a href="booking.html">訂位須知</a></li>
+   <li><a href="process.html">入場流程</a></li>
+   <li><a href="blog.html">音樂專欄</a></li>
+   <li><a href="blog-detail.html">文章詳情</a></li>
+   <li><a href="contact.html">聯絡我們</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()"><i class="bi bi-list"></i></button>
+ </div>
+</header>
+<div class="mobile-drawer" id="mobileDrawer"><button onclick="toggleMenu()" style="position:absolute;top:16px;right:24px;background:none;border:0;color:var(--text, #fff);font-size:2rem;cursor:pointer;z-index:61" aria-label="關閉選單"><i class="bi bi-x-lg"></i></button><a href="index.html" onclick="toggleMenu()">首頁</a><a href="about.html" onclick="toggleMenu()">品牌故事</a><a href="services.html" onclick="toggleMenu()">演出節目</a><a href="service-detail.html" onclick="toggleMenu()">節目詳情</a><a href="portfolio.html" onclick="toggleMenu()">現場氛圍</a><a href="reviews.html" onclick="toggleMenu()">客戶評價</a><a href="faq.html" onclick="toggleMenu()">常見問題</a><a href="booking.html" onclick="toggleMenu()">訂位須知</a><a href="process.html" onclick="toggleMenu()">入場流程</a><a href="blog.html" onclick="toggleMenu()">音樂專欄</a><a href="blog-detail.html" onclick="toggleMenu()">文章詳情</a><a href="contact.html" onclick="toggleMenu()">聯絡我們</a></div>
+<section class="hero">
+ <div class="hero-bg" style="background-image:url('https://picsum.photos/seed/jc-hero/1600/900')"></div>
+ <div class="hero-overlay"></div>
+ <div class="container hero-content">
+  <div class="hero-line"></div>
+  <h1>JAZZ CLUB</h1>
+  <p>在微光與音符之間，找到屬於夜晚的節奏。</p>
+  <div style="margin-top:40px">
+   <a href="booking.html" class="btn-primary">立即訂位</a>
+  </div>
+ </div>
+</section>
+<section class="section">
+ <div class="container">
+  <h2 class="section-title">本週演出</h2>
+  <p class="section-sub">爵士三重奏、藍調之夜、即興 Jam。</p>
+  <div class="shows-list">
+   <div class="show-row"><div class="date">FRI<br>20:00</div><div class="info"><h3>爵士三重奏</h3><p>鋼琴、貝斯、鼓 · 90 分鐘</p></div><div class="action"><a href="service-detail.html">節目詳情</a></div></div>
+   <div class="show-row"><div class="date">SAT<br>21:00</div><div class="info"><h3>藍調之夜</h3><p>藍調吉他 · 90 分鐘</p></div><div class="action"><a href="service-detail.html">節目詳情</a></div></div>
+   <div class="show-row"><div class="date">SUN<br>19:00</div><div class="info"><h3>即興 Jam</h3><p>開放參與 · 120 分鐘</p></div><div class="action"><a href="service-detail.html">節目詳情</a></div></div>
+  </div>
+ </div>
+</section>
+<section class="section" style="background:var(--bg2)">
+ <div class="container">
+  <h2 class="section-title">現場氛圍</h2>
+  <p class="section-sub">微光與音符。</p>
+  <div class="atmosphere">
+   <img src="https://picsum.photos/seed/jc-p1/400/400" alt="氛圍">
+   <img src="https://picsum.photos/seed/jc-p2/400/400" alt="氛圍">
+   <img src="https://picsum.photos/seed/jc-p3/400/400" alt="氛圍">
+   <img src="https://picsum.photos/seed/jc-p4/400/400" alt="氛圍">
+  </div>
+ </div>
+</section>
+<footer class="footer">
+ <p>© 2026 JAZZ CLUB. ALL RIGHTS RESERVED.</p>
+ <div style="margin-top:16px"><a href="index.html">首頁</a><a href="about.html">品牌故事</a><a href="services.html">演出節目</a><a href="portfolio.html">現場氛圍</a><a href="contact.html">聯絡我們</a></div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

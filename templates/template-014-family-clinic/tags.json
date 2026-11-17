@@ -1,0 +1,16 @@
+{
+ "id": "template-014",
+ "name": "Family Clinic",
+ "industryCategory": "美容健康",
+ "industry": ["家庭診所","牙科","醫療服務"],
+ "colors": ["淺色底","白藍","信任"],
+ "backgroundMode": "light",
+ "features": ["醫療服務","診所環境","FAQ","表單假送出","強 SEO","LocalBusiness Schema","圖片豐富"],
+ "layout": ["Split Trust 專業信任型"],
+ "pages": 12,
+ "hasZip": false,
+ "hasPrompt": true,
+ "hasPreview": true,
+ "imageRich": true,
+ "status": "candidate"
+}

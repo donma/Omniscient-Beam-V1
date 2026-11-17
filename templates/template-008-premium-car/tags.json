@@ -1,0 +1,16 @@
+{
+ "id": "template-008",
+ "name": "Premium Car",
+ "industryCategory": "零售商品",
+ "industry": ["精品車商","豪車租賃","汽車展示"],
+ "colors": ["深色底","黑銀","速度感"],
+ "backgroundMode": "dark",
+ "features": ["車款目錄","規格展示","FAQ","表單假送出","強 SEO","Organization Schema","圖片豐富"],
+ "layout": ["Product Catalog 商品目錄型"],
+ "pages": 12,
+ "hasZip": false,
+ "hasPrompt": true,
+ "hasPreview": true,
+ "imageRich": true,
+ "status": "candidate"
+}

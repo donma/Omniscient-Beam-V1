@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Clinic｜家庭診所</title>
+<meta name="description" content="Family Clinic 家庭診所，提供全科醫療與預防保健。">
+<link rel="canonical" href="#">
+<meta property="og:title" content="Family Clinic">
+<meta property="og:description" content="家庭診所。">
+<meta property="og:image" content="assets/img/preview.jpg">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Family Clinic","description":"家庭診所"}</script>
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a href="index.html" class="logo"><i class="bi bi-heart-pulse"></i> Family Clinic</a><ul class="nav-links"><li><a href="index.html" class="active">首頁</a></li><li><a href="about.html">關於我們</a></li><li><a href="services.html">醫療服務</a></li><li><a href="service-detail.html">服務詳情</a></li><li><a href="portfolio.html">診所環境</a></li><li><a href="reviews.html">客戶評價</a></li><li><a href="faq.html">常見問題</a></li><li><a href="booking.html">掛號預約</a></li><li><a href="process.html">就醫流程</a></li><li><a href="blog.html">健康專欄</a></li><li><a href="blog-detail.html">文章詳情</a></li><li><a href="contact.html">聯絡我們</a></li></ul><button class="hamburger" onclick="toggleMenu()"><i class="bi bi-list"></i></button></div></header>
+<div class="mobile-drawer" id="mobileDrawer"><button onclick="toggleMenu()" style="position:absolute;top:16px;right:24px;background:none;border:0;color:var(--text, #fff);font-size:2rem;cursor:pointer;z-index:61" aria-label="關閉選單"><i class="bi bi-x-lg"></i></button><a href="index.html" onclick="toggleMenu()">首頁</a><a href="about.html" onclick="toggleMenu()">關於我們</a><a href="services.html" onclick="toggleMenu()">醫療服務</a><a href="service-detail.html" onclick="toggleMenu()">服務詳情</a><a href="portfolio.html" onclick="toggleMenu()">診所環境</a><a href="reviews.html" onclick="toggleMenu()">客戶評價</a><a href="faq.html" onclick="toggleMenu()">常見問題</a><a href="booking.html" onclick="toggleMenu()">掛號預約</a><a href="process.html" onclick="toggleMenu()">就醫流程</a><a href="blog.html" onclick="toggleMenu()">健康專欄</a><a href="blog-detail.html" onclick="toggleMenu()">文章詳情</a><a href="contact.html" onclick="toggleMenu()">聯絡我們</a></div>
+<main>
+<section class="hero">
+ <div class="container">
+  <div class="grid grid-2" style="align-items:center;gap:60px">
+   <div>
+    <span style="display:inline-block;background:var(--accent);color:#fff;padding:6px 14px;border-radius:20px;font-size:.85rem;margin-bottom:16px">家庭醫學科</span>
+    <h1>守護全家的健康</h1>
+    <p>Family Clinic 提供全科醫療、預防保健與慢性病管理，以溫暖專業的態度陪伴每個家庭。</p>
+    <div style="display:flex;gap:12px;margin-top:28px;flex-wrap:wrap">
+     <a href="booking.html" class="btn-primary"><i class="bi bi-calendar-check"></i> 立即掛號</a>
+     <a href="services.html" class="btn-ghost">服務項目</a>
+    </div>
+    <div style="display:flex;gap:32px;margin-top:32px;flex-wrap:wrap">
+     <div><div style="font-size:1.6rem;font-weight:800;color:var(--accent)">15+</div><div style="color:var(--muted);font-size:.85rem">年經驗</div></div>
+     <div><div style="font-size:1.6rem;font-weight:800;color:var(--accent)">5000+</div><div style="color:var(--muted);font-size:.85rem">家庭</div></div>
+     <div><div style="font-size:1.6rem;font-weight:800;color:var(--accent)">4.9</div><div style="color:var(--muted);font-size:.85rem">評分</div></div>
+    </div>
+   </div>
+   <div style="position:relative">
+    <img src="https://picsum.photos/seed/fc-hero2/900/700" alt="診所" style="border-radius:20px;box-shadow:0 20px 60px rgba(37,99,235,.2)">
+    <div style="position:absolute;bottom:-20px;left:-20px;background:var(--bg2);padding:16px 20px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.1)">
+     <div style="font-weight:700;color:var(--accent)">今日門診</div>
+     <div style="color:var(--muted);font-size:.9rem">09:00 - 17:00</div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<section class="section" style="background:var(--bg2)">
+ <div class="container">
+  <h2 class="section-title">醫療服務</h2>
+  <p class="section-sub">以專業與關懷，守護全家健康。</p>
+  <div class="grid grid-3">
+   <div class="card"><img src="https://picsum.photos/seed/fc-s1/600/400" alt="一般診療"><div class="card-body"><div style="width:48px;height:48px;border-radius:12px;background:var(--border);display:flex;align-items:center;justify-content:center;margin-bottom:12px"><i class="bi bi-clipboard-pulse" style="color:var(--accent);font-size:1.4rem"></i></div><h3 class="card-title">一般診療</h3><p class="card-text">全科醫療、慢性病追蹤。</p><a href="service-detail.html">查看詳情 →</a></div></div>
+   <div class="card"><img src="https://picsum.photos/seed/fc-s2/600/400" alt="健康檢查"><div class="card-body"><div style="width:48px;height:48px;border-radius:12px;background:var(--border);display:flex;align-items:center;justify-content:center;margin-bottom:12px"><i class="bi bi-heart" style="color:var(--accent);font-size:1.4rem"></i></div><h3 class="card-title">健康檢查</h3><p class="card-text">預防保健方案。</p><a href="service-detail.html">查看詳情 →</a></div></div>
+   <div class="card"><img src="https://picsum.photos/seed/fc-s3/600/400" alt="疫苗注射"><div class="card-body"><div style="width:48px;height:48px;border-radius:12px;background:var(--border);display:flex;align-items:center;justify-content:center;margin-bottom:12px"><i class="bi bi-shield-plus" style="color:var(--accent);font-size:1.4rem"></i></div><h3 class="card-title">疫苗注射</h3><p class="card-text">成人與兒童疫苗。</p><a href="service-detail.html">查看詳情 →</a></div></div>
+  </div>
+ </div>
+</section>
+<section class="section">
+ <div class="container">
+  <h2 class="section-title">診所環境</h2>
+  <p class="section-sub">乾淨明亮的診療空間。</p>
+  <div style="display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:200px 200px;gap:16px">
+   <img src="https://picsum.photos/seed/fc-p1/800/400" alt="環境" style="grid-row:span 2;border-radius:12px;object-fit:cover;width:100%;height:100%">
+   <img src="https://picsum.photos/seed/fc-p2/400/200" alt="環境" style="border-radius:12px;object-fit:cover;width:100%;height:100%">
+   <img src="https://picsum.photos/seed/fc-p3/400/200" alt="環境" style="border-radius:12px;object-fit:cover;width:100%;height:100%">
+   <img src="https://picsum.photos/seed/fc-p4/400/200" alt="環境" style="border-radius:12px;object-fit:cover;width:100%;height:100%">
+   <img src="https://picsum.photos/seed/fc-p5/400/200" alt="環境" style="border-radius:12px;object-fit:cover;width:100%;height:100%">
+  </div>
+ </div>
+</section>
+<section class="section" style="background:var(--bg2)">
+ <div class="container">
+  <h2 class="section-title">病患回饋</h2>
+  <div class="grid grid-2">
+   <div class="card" style="padding:24px"><div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><img src="https://picsum.photos/seed/fc-r1/60/60" alt="病患" style="width:48px;height:48px;border-radius:50%;object-fit:cover"><div><strong>家長</strong><div style="color:var(--muted);font-size:.85rem">家庭醫學</div></div></div><p style="color:var(--muted);margin:0">醫師親切，說明清楚。</p></div>
+   <div class="card" style="padding:24px"><div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><img src="https://picsum.photos/seed/fc-r2/60/60" alt="病患" style="width:48px;height:48px;border-radius:50%;object-fit:cover"><div><strong>長者</strong><div style="color:var(--muted);font-size:.85rem">慢性病追蹤</div></div></div><p style="color:var(--muted);margin:0">服務周到，環境乾淨。</p></div>
+  </div>
+ </div>
+</section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><h3>Family Clinic</h3><p style="color:var(--muted)">家庭診所，守護全家健康。</p></div><div><h4>快速連結</h4><a href="index.html">首頁</a><a href="about.html">關於我們</a><a href="services.html">醫療服務</a><a href="portfolio.html">診所環境</a><a href="contact.html">聯絡我們</a></div><div><h4>聯絡我們</h4><p style="color:var(--muted)">電話：02-2222-3333<br>Email：clinic@family.tw<br>地址：台北市中山區範例路 30 號<br>營業時間：週一至週五 09:00 - 17:00</p></div></div><div class="container" style="margin-top:30px;color:var(--muted);font-size:.85rem;text-align:center">© 2026 Family Clinic. All rights reserved.</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

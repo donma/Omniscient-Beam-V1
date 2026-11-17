@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Boutique｜精品服飾</title>
+<meta name="description" content="Fashion Boutique 精品服飾 Lookbook。">
+<link rel="canonical" href="#">
+<meta property="og:title" content="Fashion Boutique">
+<meta property="og:description" content="精品服飾 Lookbook。">
+<meta property="og:image" content="assets/img/preview.jpg">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Cormorant+Garamond:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Fashion Boutique"}</script>
+</head>
+<body>
+<header class="site-header">
+ <div class="container nav-wrap">
+  <a href="index.html" class="logo">FASHION BOUTIQUE</a>
+  <ul class="nav-links">
+   <li><a href="index.html" class="active">首頁</a></li>
+   <li><a href="about.html">品牌故事</a></li>
+   <li><a href="services.html">商品系列</a></li>
+   <li><a href="service-detail.html">商品詳情</a></li>
+   <li><a href="portfolio.html">Lookbook</a></li>
+   <li><a href="reviews.html">客戶評價</a></li>
+   <li><a href="faq.html">常見問題</a></li>
+   <li><a href="booking.html">選購諮詢</a></li>
+   <li><a href="process.html">選購流程</a></li>
+   <li><a href="blog.html">風格誌</a></li>
+   <li><a href="blog-detail.html">文章詳情</a></li>
+   <li><a href="contact.html">聯絡我們</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()"><i class="bi bi-list"></i></button>
+ </div>
+</header>
+<div class="mobile-drawer" id="mobileDrawer"><button onclick="toggleMenu()" style="position:absolute;top:16px;right:24px;background:none;border:0;color:var(--text, #fff);font-size:2rem;cursor:pointer;z-index:61" aria-label="關閉選單"><i class="bi bi-x-lg"></i></button><a href="index.html" onclick="toggleMenu()">首頁</a><a href="about.html" onclick="toggleMenu()">品牌故事</a><a href="services.html" onclick="toggleMenu()">商品系列</a><a href="service-detail.html" onclick="toggleMenu()">商品詳情</a><a href="portfolio.html" onclick="toggleMenu()">Lookbook</a><a href="reviews.html" onclick="toggleMenu()">客戶評價</a><a href="faq.html" onclick="toggleMenu()">常見問題</a><a href="booking.html" onclick="toggleMenu()">選購諮詢</a><a href="process.html" onclick="toggleMenu()">選購流程</a><a href="blog.html" onclick="toggleMenu()">風格誌</a><a href="blog-detail.html" onclick="toggleMenu()">文章詳情</a><a href="contact.html" onclick="toggleMenu()">聯絡我們</a></div>
+<section class="hero">
+ <div class="hero-bg" style="background-image:url('https://picsum.photos/seed/fb-hero/1600/900')"></div>
+ <div class="container hero-content">
+  <div class="hero-line"></div>
+  <h1>FASHION<br>BOUTIQUE</h1>
+  <p>以簡約與留白，詮釋現代精品美學。</p>
+  <a href="portfolio.html" class="btn-primary">瀏覽 Lookbook</a>
+ </div>
+</section>
+<section class="section">
+ <div class="container">
+  <h2 class="section-title">本季精選</h2>
+  <p class="section-sub">以質感與細節，打造永恆風格。</p>
+  <div class="editorial-grid">
+   <img src="https://picsum.photos/seed/fb-editorial/900/700" alt="編輯精選">
+   <div class="editorial-text">
+    <h3>極簡美學</h3>
+    <p>Fashion Boutique 致力於提供高品質服飾，從面料到剪裁皆精心挑選。</p>
+    <p>我們相信，好的設計應該是永恆的，而不是短暫的潮流。</p>
+    <a href="about.html" class="btn-primary" style="margin-top:24px">品牌故事</a>
+   </div>
+  </div>
+ </div>
+</section>
+<section class="section" style="background:var(--bg2)">
+ <div class="container">
+  <h2 class="section-title">Lookbook</h2>
+  <p class="section-sub">本季造型。</p>
+  <div class="lookbook">
+   <img src="https://picsum.photos/seed/fb-l1/800/500" alt="Look 1" class="wide">
+   <img src="https://picsum.photos/seed/fb-l2/400/500" alt="Look 2">
+   <img src="https://picsum.photos/seed/fb-l3/400/500" alt="Look 3">
+   <img src="https://picsum.photos/seed/fb-l4/400/500" alt="Look 4">
+   <img src="https://picsum.photos/seed/fb-l5/800/500" alt="Look 5" class="wide">
+  </div>
+ </div>
+</section>
+<footer class="footer">
+ <p>© 2026 FASHION BOUTIQUE. ALL RIGHTS RESERVED.</p>
+ <div style="margin-top:16px"><a href="index.html">首頁</a><a href="about.html">品牌故事</a><a href="services.html">商品系列</a><a href="portfolio.html">Lookbook</a><a href="contact.html">聯絡我們</a></div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

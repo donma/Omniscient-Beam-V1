@@ -1,0 +1,2 @@
+@media(max-width:600px){.hero h1{font-size:2rem}.story img{margin:20px 0}}
+@media(max-width:900px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}
